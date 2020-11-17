@@ -1,0 +1,67 @@
+.thumbnail img{
+    max-height: 150px;
+    }
+
+.price{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.thumbnail .description{
+    color: #777777;
+}
+
+.blue{
+  background-color: lightblue;
+}
+
+.highlight{
+  color: grey;
+}
+
+.logo{
+    max-height: 30px;
+}
+.product-row{
+  padding-left: 1%;
+}
+
+.nopadding{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.error{
+  background-color: #f1f1f5;
+  height: 70vh;
+}
+.error img{
+  max-height: none;
+}
+.msg {
+  left:35%;
+    position: fixed;
+    width: 30%;
+    text-align: center;
+    display: block;
+    bottom: 0;
+}
+.side-static{
+  position: fixed;
+  width: 20%;
+  right:9%;
+}
+.btn{
+  margin: 5px;
+}
+.title{
+  margin-left: : 10px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
